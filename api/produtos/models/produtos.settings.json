@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "name": "Produtos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomeProduto": {
+      "type": "string",
+      "required": true
+    },
+    "valorProduto": {
+      "type": "decimal",
+      "required": true
+    },
+    "estoque": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
